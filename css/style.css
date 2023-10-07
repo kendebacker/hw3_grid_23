@@ -125,8 +125,8 @@ nav a:hover, a:focus{
   margin-top: 20px;
 }
 /* Step 3: Write selector/rule property to style all elements when in focus*/
-
-a:focus{
+/* https://stackoverflow.com/questions/20446691/apply-style-to-all-elements */
+*:focus{
   border: 2px solid red;
 }
 
